@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: black;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;  
+}
+
+p {
+    background-color: rgba(53, 238, 255, 0.361);
+    
+    color: white;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;  
+    width: 500px;
+    padding: 10px;
+
+    text-align: left;
+}
+
+.clickme {
+    object-fit: cover;
+    float: right;
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin-right: 50px;
+    object-position: center;
+}
+
+/*used to add extra height to containers*/
+.empty {
+    height: 50px;
+}
+
+.banner{
+    object-fit: contain;
+    object-position: center;
+}
+
+.discord{
+    float: right;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+#discord{
+    text-align: left;
+    float: left;
+    width: 500px;
+    font-size: 80px;
+    padding-left: 10px;
+}

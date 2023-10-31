@@ -1,0 +1,37 @@
+.parallax {
+
+    /* Set a specific height*/
+    min-height: 400px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#one{
+    /* The image used */
+    background-image: url("https://static.vecteezy.com/system/resources/previews/026/450/332/non_2x/night-city-life-rain-drenched-streets-illuminated-skyscrapers-bustling-traffic-generated-by-ai-free-photo.jpg");
+}
+
+#two{
+    /* The image used */
+    background-image: url("https://wallpapers.com/images/hd/spiral-milky-way-galaxy-57bi3fxyfrkifr0t.jpg");
+}
+
+#three{
+    /* The image used */
+    background-image: url("https://images3.alphacoders.com/132/thumb-1920-1328226.png");
+}
+
+#four{
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/00/ab/38/00ab38b9af71e36ea7f3fc43225e40bf.jpg");
+}
+
+#five{
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/2d/3f/cb/2d3fcb6ea71ba4e30ec95e94d8103068.png");
+}
