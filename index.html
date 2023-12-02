@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/mypics/CompSci_Logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
 
@@ -18,7 +19,7 @@
     <div>
         <img src="images/bannerpics/banner.png" id="banner">
     </div>
-<!-- TODO: Study into picture borders, and how to make the pictures slide -->
+<!-- TODO: how to make the pictures slide -->
     <!-- Sideshow Pictures -->
     <div class="slideshow">
         <img src="images/mypics/together.jpg" class="slideshow_pics">
@@ -29,7 +30,6 @@
     <!-- Profile Picture -->
     <div>
         <img src="images/mypics/profile.jpg" id="profile_picture">
-<!-- TODO: issue needs to overlap other images -->
     </div>
 
 
@@ -42,7 +42,7 @@
         <div class="left_container">
             <div class="flex_section" id="one">
                 <img class="flex_header" src="images/bannerpics/AboutMe.png">
-                <p>
+                <p><b>
                     Hello there! I'm Aaron Jarnes, a passionate programmer with a love for the thrill of snowboarding. 
                     As I navigate the exciting world of technology, my days are filled with lines of code and adrenaline-pumping slopes.
                     <br><br>
@@ -51,6 +51,7 @@
                     <br><br>
                     Outside the digital realm, you'll find me carving through snow-covered mountains, chasing the perfect line on 
                     my snowboard. The rush of wind and the crisp mountain air fuel my adventurous spirit.
+                    </b>
                 </p>
             </div>
 
@@ -58,6 +59,7 @@
             <div class="flex_section" id="two">
                 <img class="flex_header" src="images/bannerpics/Accolades.png">
                 <p>
+                    <b>
                     🎻 Cello Virtuoso: 7 Years of Musical Mastery
                     For seven years, I've immersed myself in the world of cello, creating beautiful melodies and honing my musical craft. The resonance of strings echoes alongside my journey through various achievements.
                     <br><br>
@@ -72,81 +74,11 @@
                     <br><br>
                     🌟 An Ongoing Symphony of Success
                     As I celebrate one year of accomplishments, I look forward to the harmonious blend of my skills, whether resonating through cello strings, navigating managerial challenges, tutoring aspiring minds, or crafting cutting-edge programs. Here's to the ongoing symphony of success!
+                    </b>
                 </p>
             </div>
 
-        </div>
-
-
-
-        <div class="right_container">
-
-
-<!-- TODO: possibly some pictures,, if so, swap contact info to left container -->
-            <div class="flex_section" id="three">
-                <img class="flex_header" src="images/bannerpics/Projects.png">
-                <div class="project_container">
-                    <a href="https://github.com/MediumWaffle" target="_blank" class="project_link"><b>Github Profile - Medium Waffle</b></a>
-                </div>
-                <div class="project_container">
-                    <a href="https://github.com/MediumWaffle/ClassBuilder" target="_blank" class="project_link">Class Builder</a>
-                    <p>
-                        Language: C++
-                        <br>
-                        This program will let you create any class with a limited number of variable typings. 
-                        This does not include namespace std so your project will be as optimized as you'd like it. 
-                        This class builder makes getter and setter functions all in the header for you. No extra assembly required. 
-                        Just run the program, include it into your libraries, and enjoy easy coding!
-                    </p>
-                </div>
-                <div class="project_container">
-                    <a href="https://github.com/MediumWaffle/TrigTrot" target="_blank" class="project_link">TrigTrot</a>
-                    <p>
-                        Language: C++
-                        <br>
-                        This is a group project to create a game using the SFML library. The game we created is called TrigTrot. 
-                        A clever play on words from the game's inspiration: Geometry Dash. Trig Trot is an infinite size scroller 
-                        where you have to dodge incoming spikes. Equpped with music, skins, title and end screen, this game shows 
-                        what a few peolpe can do in a short amount of time. 
-                    </p>
-                </div>
-                <div class="project_container">
-                    <a href="https://github.com/MediumWaffle/lexer" target="_blank" class="project_link">Lexer</a>
-                    <p>
-                        Language: C
-                        <br>
-                        The lexical analyzer takes a text file as input. It then parses out the file in tokens. 
-                        Those tokens are checked character by character to determine what they represent in each line of code. 
-                        The lexer can determine if you are using a keyword, identifier, comment, strings, numbers, and much more. 
-                        It creates an output file to write the lexer's findings. Equipped with error fuctionality, this program 
-                        specializes in using system read and write functions. 
-                    </p>
-                </div>
-                <div class="project_container">
-                    <a href="https://github.com/CS151PA-Fall2022/pa4-MediumWaffle" target="_blank" class="project_link">Steganography</a>
-                    <p>
-                        Language: C++
-                        <br>
-                        Steganography is the artform of encoding a hidden message into pictures. This program works on the BMP file 
-                        structure. It takes a file as input and encodes a hidden message into it. You can also input a file and decode 
-                        the message in it. This plays off the fact that each pixel changes by 1 bit to represent binary. That binary 
-                        is translated into characters then strings to formulate a hidden encoded message. 
-                    </p>
-                </div>
-                <div class="project_container">
-                    <a href="https://github.com/CS150PA-Spring2022/pa8_battleship-malaarcal" target="_blank" class="project_link">Battle Ship</a>
-                    <p>
-                        Language: C++
-                        <br>
-                        Battle Ship was a group project designed to help us get used to working in github with multiple people. 
-                        The game is very simple to learn, if you don't know how to play, there is a how to play screen. 
-                        The game uses random chance to determine who goes first then the gameloop is off. 
-                        Showcasing strategy and patience, our computer bot will have you wondering "Why didn't I win?".
-                    </p>
-                </div>
-            </div>
-
-
+            
             <div class="flex_section" id="four">
                 <img class="flex_header" src="images/bannerpics/Contact.png">
                 <div class="contact_container">
@@ -178,6 +110,96 @@
                         <img class="icon" src="images/icons/youtube.png">
                     </a>
                     <p class="contact_info">Medium Waffle</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="right_container">
+
+            
+            <div class="flex_section" id="three">
+                <img class="flex_header" src="images/bannerpics/Projects.png">
+                <div class="project_container">
+                    <a href="https://github.com/MediumWaffle" target="_blank" class="project_link"><b>Github Profile - Medium Waffle (Click Me)</b></a>
+                </div>
+                <div class="project_container">
+                    <a href="https://github.com/MediumWaffle/ClassBuilder" target="_blank" class="project_link">Class Builder (Click Me)</a>
+                    <p>
+                        <b>
+                        Language: C++
+                        <br>
+                        This program will let you create any class with a limited number of variable typings. 
+                        This does not include namespace std so your project will be as optimized as you'd like it. 
+                        This class builder makes getter and setter functions all in the header for you. No extra assembly required. 
+                        Just run the program, include it into your libraries, and enjoy easy coding!
+                        </b>
+                        <br>
+                        <img src="images/projectpics/ClassBuilderPic.png" class="project_pics">
+                    </p>
+                </div>
+                <div class="project_container">
+                    <a href="https://github.com/MediumWaffle/TrigTrot" target="_blank" class="project_link">TrigTrot (Click Me)</a>
+                    <p>
+                        <b>
+                        Language: C++
+                        <br>
+                        This is a group project to create a game using the SFML library. The game we created is called TrigTrot. 
+                        A clever play on words from the game's inspiration: Geometry Dash. Trig Trot is an infinite size scroller 
+                        where you have to dodge incoming spikes. Equpped with music, skins, title and end screen, this game shows 
+                        what a few peolpe can do in a short amount of time.
+                        </b>
+                        <br>
+                        <img src="images/projectpics/TrigTrotPic.png" class="project_pics">
+                    </p>
+                </div>
+                <div class="project_container">
+                    <a href="https://github.com/MediumWaffle/lexer" target="_blank" class="project_link">Lexer (Click Me)</a>
+                    <p>
+                        <b>
+                        Language: C
+                        <br>
+                        The lexical analyzer takes a text file as input. It then parses out the file in tokens. 
+                        Those tokens are checked character by character to determine what they represent in each line of code. 
+                        The lexer can determine if you are using a keyword, identifier, comment, strings, numbers, and much more. 
+                        It creates an output file to write the lexer's findings. Equipped with error fuctionality, this program 
+                        specializes in using system read and write functions. 
+                        </b>
+                        <br>
+                        <img src="images/projectpics/LexerPic.png" class="project_pics" id="lexer">
+                    </p>
+                </div>
+                <div class="project_container">
+                    <a href="https://github.com/CS151PA-Fall2022/pa4-MediumWaffle" target="_blank" class="project_link">Steganography (Click Me)</a>
+                    <p>
+                        <b>
+                        Language: C++
+                        <br>
+                        Steganography is the artform of encoding a hidden message into pictures. This program works on the BMP file 
+                        structure. It takes a file as input and encodes a hidden message into it. You can also input a file and decode 
+                        the message in it. This plays off the fact that each pixel changes by 1 bit to represent binary. That binary 
+                        is translated into characters then strings to formulate a hidden encoded message. 
+                        </b>
+                        <br>
+                        <img src="images/projectpics/SteganographyPic.png" class="project_pics">
+                    </p>
+                </div>
+                <div class="project_container">
+                    <a href="https://github.com/MediumWaffle/BattleShip" target="_blank" class="project_link">Battle Ship (Click Me)</a>
+                    <p>
+                        <b>
+                        Language: C++
+                        <br>
+                        Battle Ship was a group project designed to help us get used to working in github with multiple people. 
+                        The game is very simple to learn, if you don't know how to play, there is a how to play screen. 
+                        The game uses random chance to determine who goes first then the gameloop is off. 
+                        Showcasing strategy and patience, our computer bot will have you wondering "Why didn't I win?".
+                        </b>
+                        <br>
+                        <img src="images/projectpics/BattleShipPic.png" class="project_pics">
+                    </p>
                 </div>
             </div>
         </div>
