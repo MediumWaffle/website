@@ -112,19 +112,23 @@ p{
 }
 
 #one{
-    background-image: url('../images/backgroundpics/AboutMeBackground.jpeg');
+    /* background-image: url('../images/backgroundpics/AboutMeBackground.jpeg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/backgroundpics/AboutMeBackground.jpeg');
 }
 
 #two{
-    background-image: url('../images/backgroundpics/AccoladesBackground.webp');
+    /* background-image: url('../images/backgroundpics/AccoladesBackground.webp'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/backgroundpics/AccoladesBackground.webp');
 }
 
 #three{
-    background-image: url('../images/backgroundpics/ProjectsBackground.webp');
+    /* background-image: url('../images/backgroundpics/ProjectsBackground.webp'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/backgroundpics/ProjectsBackground.webp');
 }
 
 #four{
-    background-image: url('../images/backgroundpics/ContactBackground.webp');
+    /* background-image: url('../images/backgroundpics/ContactBackground.webp'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../images/backgroundpics/ContactBackground.webp');
 }
 
 .icon{
@@ -132,6 +136,12 @@ p{
     background-color: white;
     border-radius: 50%;
     box-shadow:5px 5px 5px #999;
+    transition: transform 0.3s ease;
+    
+}
+
+.icon:hover{
+    transform: translateY(-10px);
 }
 
 .contact_container{
